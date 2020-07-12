@@ -17,5 +17,8 @@ namespace Balzor.Chart.App.Server.Data
             IOptions<OperationalStoreOptions> operationalStoreOptions) : base(options, operationalStoreOptions)
         {
         }
+
+        //dotnet ef migrations add <migrationName> --context <contextName>
+        //dotnet ef database update --context <contextName>
     }
 }
